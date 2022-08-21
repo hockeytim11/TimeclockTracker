@@ -16,7 +16,7 @@ namespace TimeclockTracker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Punchcard());
+            Application.Run(new TimeclockTracker());
         }
     }
 }

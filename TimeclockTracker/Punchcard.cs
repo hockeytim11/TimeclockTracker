@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace TimeclockTracker
 {
-    public partial class Punchcard : Form
+    public partial class TimeclockTracker : Form
     {
         // Define request parameters.
         String spreadsheetId = ConfigurationManager.AppSettings["sheet"];
@@ -19,7 +19,7 @@ namespace TimeclockTracker
         String facultySheet = ConfigurationManager.AppSettings["faculty"];
         SheetsService service;
         Dictionary<string, Faculty> facultyData = new Dictionary<string, Faculty>();
-        public Punchcard()
+        public TimeclockTracker()
         {
             InitializeComponent();
         }
